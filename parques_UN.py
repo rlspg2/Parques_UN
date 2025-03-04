@@ -354,7 +354,7 @@ def capturar_ficha(equipo_capturador, ficha_capturada):
 
     # Validamos que la ficha capturada pertenezca a otro equipo
     if equipo_capturado == equipo_capturador:
-        print("Error: No puedes capturar una ficha de tu propio equipo.")
+        print()
         return
 
     # Buscamos la ficha capturada en el tablero
